@@ -15,6 +15,17 @@ Make sure to install the dependencies
 yarn
 ```
 
+## Storyblok config
+
+Add an `.env` file with the following info
+
+```
+STORYBLOK_API_URL=https://api.storyblok.com/v2
+STORYBLOK_API_TOKEN=XXXXXXXXXXXXXXXXXXX
+```
+
+You can get your API_TOKEN on your [Storyblok Dashboard](https://app.storyblok.com/) on **Settings** and then **API-Keys**
+
 ## Development
 
 Start the development server on http://localhost:3000
